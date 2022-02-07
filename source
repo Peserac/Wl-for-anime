@@ -173,38 +173,6 @@ TextLabel_3.Visible = false
 TextLabel_4.Visible = false
 ImageLabel.Visible = false
 
-
-
-
-
-getgenv().Circle = {
-    ["Size"] = 3.5,
-    ["Enabled"] = true,
-    ["Random FTI"] = true,
-    ["Whitelisted Limbs"] = {"Left Arm","Right Arm","Torso","Left Leg","Right Leg","Head"}
-}
-
-getgenv().Configuration = {
-    ["Active"] = true,
-    ["Increase Size"] = .5,
-    ["Decrease Size"] = .5,
-    ["Notifications"] = true,
-    ["Auto Clicker"] = false,
-    ["Transparency Check"] = false,
-    ["Team Check"] = false,
-    ["Fake Handle FTI"] = true -- if true, will only trigger if a fake handle is present (use for advanced antis)
-}
-
-getgenv().Keybinds = {
-    ["Toggle Reach"] = "Z",
-    ["Toggle AC"] = "Q",
-    ["Increase Reach"] = "E",
-    ["Decrease Reach"] = "R",
-    ["Toggle Script"] = "X",
-    ["Notifications Toggle"] = "N",
-    ["Fake Handle FTI Toggle"] = "P"
-}
-
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
